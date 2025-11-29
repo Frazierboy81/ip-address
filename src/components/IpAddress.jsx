@@ -44,15 +44,17 @@ function IpAddress() {
                     <input className="bg-white w-96 rounded-l-md" type="text" />
                     <button className="bg-black text-white p-3 rounded-r-md" onSubmit={{}}>+</button>
                 </form>
-            </div>
-            
 
-            <div className="flex flex row justify-around p-4 h-32 shadow-xl w-5/6 ml-32 bg-gray-300 rounded-xl relative top-[-50px]">
+                <div className="flex flex row justify-around p-4 h-32 shadow-xl w-5/6 ml-32 bg-white rounded-xl relative top-[90px]">
                 <div className=""><h3 className="ml-1">IP Address</h3></div>
                 <div className="border-l-1 border-gray-300"><h3 className="ml-1">Location</h3></div>
                 <div className="border-l-1 border-gray-300"><h3 className="ml-1">Timezone</h3></div>
                 <div className="border-l-1 border-gray-300"><h3 className="ml-1">ISP</h3></div>
             </div>
+            </div>
+            
+
+            
             
 
         </div>
