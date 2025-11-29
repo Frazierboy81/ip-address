@@ -1,7 +1,5 @@
-// import L from "leaflet";
-// import "leaflet/dist/leaflet.css";
+import "leaflet/dist/leaflet.css";
 import { useEffect, useState } from "react";
-// import { MapContainer } from 'react-leaflet/MapContainer'
 
 import {
     MapContainer,
@@ -14,7 +12,7 @@ function MapView() {
  const position = [51.505, -0.09]
 
 return(
-  <MapContainer center={position} zoom={13} style={{height: "100%", width:"100%"}}>
+  <MapContainer className="mt-0 w-full h-96" center={position} zoom={13}>
     <TileLayer
       attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
       url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
